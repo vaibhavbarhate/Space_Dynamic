@@ -1,10 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll(".navbar-nav a");
-
     window.addEventListener("scroll", () => {
         let current = "";
-
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
@@ -12,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 current = section.getAttribute("id");
             }
         });
-
         navLinks.forEach(link => {
             link.classList.remove("active");
             if (link.getAttribute("href").substring(1) === current) {
@@ -21,14 +18,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
 var myVar;
-
 function myFunction() {
-  myVar = setTimeout(showPage, 400);
+    myVar = setTimeout(showPage, 400);
 }
-
 function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
 }
