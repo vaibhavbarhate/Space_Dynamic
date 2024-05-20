@@ -433,7 +433,7 @@ button.navbar-toggler {
     margin-top: 145px;
 }
 .our-Portfolio {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .hidden-item {
     background: linear-gradient(105deg, rgba(255, 77, 30, 1) 0%, rgba(255, 44, 109, 1) 100%);

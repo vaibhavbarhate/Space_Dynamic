@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -52,7 +54,7 @@ header {
 }
 
 .nav-item a {
-    color:#1e1e1e;
+    color: #1e1e1e;
     font-weight: 600;
     font-size: 17px;
     padding-left: 20px !important;
@@ -352,8 +354,8 @@ header {
     z-index: 2;
     top: 0;
     width: 100%;
-opacity: 0;
-transition: all 1.0s;
+    opacity: 0;
+    transition: all 1.0s;
 
 }
 
@@ -599,8 +601,8 @@ transition: all 1.0s;
 
 .contect_form {
     background-color: #fff;
-padding: 30px;
-border-radius: 23px;
+    padding: 30px;
+    border-radius: 23px;
 }
 
 .contect_form input {
@@ -611,12 +613,15 @@ border-radius: 23px;
     font-size: 15px;
     font-weight: 300;
     padding: 27px 20px;
-    margin-bottom: 20px  ;  width: 100%;
+    margin-bottom: 20px;
+    width: 100%;
 }
-.contect_form input::placeholder{
+
+.contect_form input::placeholder {
     color: #2a2a2a;
 
 }
+
 .contect_form textarea {
     border-radius: 23px;
     background-color: #d1f3ff;
@@ -629,10 +634,12 @@ border-radius: 23px;
     padding: 27px 20px;
     margin-bottom: 20px
 }
-.contect_form textarea::placeholder{
+
+.contect_form textarea::placeholder {
     color: #2a2a2a;
 
 }
+
 .contect-form_btn {
     background-color: #03a4ed;
     color: #fff;
@@ -641,30 +648,36 @@ border-radius: 23px;
     padding: 5px 0px;
     border-radius: 20px;
 }
-.contect-form_btn button{
+
+.contect-form_btn button {
     color: #fff;
     display: flex;
     justify-content: start;
 }
-.contect-form_btn:hover{
+
+.contect-form_btn:hover {
     background-color: #fe3f40;
 }
-.cpoyright-text{
+
+.cpoyright-text {
     padding-top: 200px;
 
 }
-.cpoyright-text h6{
+
+.cpoyright-text h6 {
     text-align: center;
     font-size: 19px;
     line-height: 30px;
     color: #2a2a2a;
 }
-.cpoyright-text p{
+
+.cpoyright-text p {
     text-align: center;
     font-size: 19px;
     line-height: 30px;
     color: #2a2a2a;
 }
-.cpoyright-text span{
-color: #fe3f40;
+
+.cpoyright-text span {
+    color: #fe3f40;
 }
