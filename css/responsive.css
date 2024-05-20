@@ -1,0 +1,254 @@
+@media screen and (max-width: 1024px) {
+    .services_progress_bar span {
+        left: 360px;
+    }
+
+    .services_progress_bar .seo {
+
+        left: 370px;
+    }
+
+    .services_progress_bar .web {
+        left: 400px;
+    }
+
+    .blog-button {
+        top: 197px;
+    }
+
+    .about-btn {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+
+    .icon-search {
+        position: absolute;
+        right: 100px;
+        top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .about_flex {
+        background: linear-gradient(105deg, rgba(255, 77, 30, 1) 0%, rgba(255, 44, 109, 1) 100%);
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .main-red-button button {
+        display: none;
+        padding: 0;
+    }
+    .navbar-nav {
+        text-align: center;
+        background: #fff;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .about-bg-img {
+        background-image: none;
+    }
+
+    .col-lg-8 {
+        order: 1;
+
+    }
+
+    .col-lg-4 {
+        order: 2;
+        margin-top: 100px;
+    }
+
+    .services_progress_bar span {
+        left: 553px;
+    }
+
+    .services_progress_bar .seo {
+
+        left: 576px;
+    }
+
+    .services_progress_bar .web {
+        left: 625px;
+    }
+
+    .blog-right-img {
+        display: none;
+    }
+    .right-image{
+        width: 50%;
+    }
+    .left_content{
+        width: 50%;
+    }
+    .show-item {
+        margin-top: 120px;
+    }
+    .top {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .col-lg-8 {
+        order: 1;
+
+    }
+
+    .col-lg-4 {
+        order: 2;
+        margin-top: 100px;
+
+    }
+
+    .main-red-button button {
+        display: none;
+        padding: 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #fff;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .services_progress_bar span {
+        left: 400px;
+    }
+
+    .services_progress_bar .seo {
+        left: 419px;
+    }
+
+    .services_progress_bar .web {
+        left: 443px;
+    }
+
+    .show-item {
+        margin-top: 120px;
+    }
+
+    .top {
+        margin-top: 0px;
+    }
+
+    .blog-right-img {
+        /* max-width: 270px; */
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto;
+    }
+
+    .about_flex {
+        background: linear-gradient(105deg, rgba(255, 77, 30, 1) 0%, rgba(255, 44, 109, 1) 100%);
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    .about-bg-img {
+        background-image: none;
+    }
+
+    .blog-button {
+        top: 169px;
+    }
+
+    .main_banner {
+        padding: 0;
+    }
+
+    .our-services {
+        padding: 0;
+    }
+
+    .our-services {
+        padding-bottom: 120px;
+    }
+
+    .blog-heading h2 {
+
+        padding-top: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 448px) {
+    .main-red-button button {
+        display: none;
+        padding: 0;
+    }
+    .main-button button {
+        bottom: 20px;
+        right: 69px;
+        padding: 5px 6px;
+
+    }
+    .services_progress_bar span {
+        left: 257px;
+    }
+    .about-text {
+        padding: 10px;
+    }   
+    .services_progress_bar .seo {
+        left: 272px;
+    }
+    .services_progress_bar .web {
+        left: 283px;
+    }
+    .blog-right-img {
+        display: none;
+        margin-top: 150px;
+    }
+
+    .blog-right-img {
+        /* max-width: 270px; */
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto;
+    }
+    .right-list ul li {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .right-image {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .left_content {
+        width: 100%;
+    }
+    .right-list .left_content h4 {
+        max-width: 254px;    }
+    .right-list .left_content p {
+        max-width: 0;
+    }
+    .right-list .left_content p {
+        max-width: 258px;
+    }       
+    .blog_icon ul li {
+        font-size: 14px;
+        color: #afafaf;
+    }
+    .info_box {
+        margin-right: 0;
+
+    }
+    .info_box ul {
+        padding-left: 0;
+    }
+
+    .footer_text span i {
+       
+        margin-left: 8px;
+        margin-right: 1px;
+    }
+}
