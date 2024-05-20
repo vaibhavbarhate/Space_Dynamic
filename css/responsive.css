@@ -165,9 +165,9 @@
         background-image: none;
     }
 
-    /* .blog-button {
+    .blog-button {
         top: 160px;
-    } */
+    }
 
     .main_banner {
         padding: 0;
@@ -282,7 +282,9 @@
         margin-right: 0;
 
     }
-
+    .blog-button {
+        top: 160px;
+    }
     .info_box ul {
         padding-left: 0;
     }
