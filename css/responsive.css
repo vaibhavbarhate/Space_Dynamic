@@ -166,7 +166,7 @@
     }
 
     .blog-button {
-        top: 180px;
+        top: 160px;
     }
 
     .main_banner {
@@ -206,12 +206,13 @@
     .banner-img {
         margin-top: 60px;
     }
-
+    .banner_form input {
+        width: 100%;
+    }
     .main-button button {
-        bottom: 20px;
-        right: 69px;
-        padding: 5px 6px;
-
+        bottom: 15px;
+        right: 9px;
+        padding: 8px 20px;
     }
 
     .services_progress_bar span {
