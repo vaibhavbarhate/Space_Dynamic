@@ -33,7 +33,10 @@ h5,
 h6 {
     margin-bottom: 0;
 }
-
+::selection{
+    color: #FFF;
+    background-color: #ff4d61;
+}
 header {
 z-index: 1;
     background-color: #fff!important;
