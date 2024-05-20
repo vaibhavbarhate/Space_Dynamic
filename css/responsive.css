@@ -99,12 +99,12 @@
 }
 
 
-@media screen and (max-width: 778px) {
+/* @media screen and (max-width: 778px) {
     .blog-button {
         top: 180px;
     }
 
-}
+} */
 
 @media screen and (max-width: 600px) {
 
