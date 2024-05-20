@@ -42,10 +42,11 @@
     }
     .navbar-nav {
         text-align: center;
-        background: #fff;
+        background: #F7F7FA ;
         position: absolute;
         z-index: 1;
         width: 100%;
+        border-top: 1px solid black;
     }
 
     .about-bg-img {
@@ -112,10 +113,12 @@
 
     .navbar-nav {
         text-align: center;
-        background: #fff;
+        background: #F7F7FA ;
         position: absolute;
         z-index: 1;
         width: 100%;
+        border-top: 1px solid black;
+
     }
 
     .services_progress_bar span {
@@ -182,9 +185,18 @@
 
 
 @media screen and (max-width: 448px) {
+    
     .main-red-button button {
         display: none;
         padding: 0;
+    }
+    .banner_text h2 {
+        font-size: 40px;
+        line-height: 57px;
+padding-top: 20px;
+    }
+    .banner-img {
+        margin-top: 60px;
     }
     .main-button button {
         bottom: 20px;
@@ -214,6 +226,9 @@
         margin-left: auto;
         text-align: center;
         margin-right: auto;
+    }
+    .right-list ul {
+        padding-left: 0;
     }
     .right-list ul li {
         display: block;
@@ -245,10 +260,11 @@
     .info_box ul {
         padding-left: 0;
     }
-
-    .footer_text span i {
-       
-        margin-left: 8px;
-        margin-right: 1px;
-    }
+.footer_text{
+    text-align:center ;
+}
+.footer_text h4 span{
+display: block;
+padding-top: 20px;
+}
 }
