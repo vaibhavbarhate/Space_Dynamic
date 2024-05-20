@@ -98,6 +98,14 @@
     }
 }
 
+
+@media screen and (max-width: 778px) {
+    .blog-button {
+        top: 190px;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
 
     .col-lg-8 {
