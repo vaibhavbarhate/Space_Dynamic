@@ -123,11 +123,11 @@ button:focus:not(:focus-visible) {
 }
 
 .nav-item a:hover {
-    color: rgb(254, 63, 64);
+    /* color: rgb(254, 63, 64) !important; */
 }
 
-.nav-item a .active {
-    color: rgb(254, 63, 64);
+.nav-item a.active {
+    color: rgb(254, 63, 64)  !important;
 }
 
 .navbar-toggler:focus {
