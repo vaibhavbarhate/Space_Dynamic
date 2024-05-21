@@ -18,11 +18,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-var myVar;
-function myFunction() {
-    myVar = setTimeout(showPage, 1000);
-}
-function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
-}
+// var myVar;
+
+// function myFunction() {
+//   myVar = setTimeout(showPage, 1000);
+// }
+
+// function showPage() {
+//   document.getElementById("loader").style.display = "none";
+//   document.getElementById("header").style.display = "block";
+// }
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+    }, 4000); // 25 seconds
+});
+

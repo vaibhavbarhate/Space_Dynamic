@@ -252,7 +252,7 @@
     }
 
     .right-list ul {
-        padding-left: 0;
+        padding-top: 50px;
     }
 
     .right-list ul li {
@@ -282,7 +282,7 @@
     }
 
     .blog_icon ul li {
-        font-size: 14px;
+        font-size: 13px;
         color: #afafaf;
     }
 
@@ -290,12 +290,10 @@
         margin-right: 0;
 
     }
-    .blog-button {
-        top: 170px;
-    }
-    .info_box ul {
-        padding-left: 0;
-    }
+    /* .blog-button {
+        top: 230px;
+    } */
+  
 
     .footer_text {
         text-align: center;
