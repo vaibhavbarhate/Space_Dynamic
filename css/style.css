@@ -294,6 +294,7 @@ button.navbar-toggler {
 .our-services {
     padding-top: 20px;
     padding-bottom: 120px;
+    overflow: hidden;
 }
 
 .service-img {
@@ -584,7 +585,9 @@ button.navbar-toggler {
     margin-left: auto;
 
 }
-
+.right-list{
+    overflow: hidden;
+}
 .right-list ul li {
     display: flex;
     margin-bottom: 30px;
