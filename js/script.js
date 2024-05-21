@@ -17,8 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('.nav-link');
 
@@ -57,6 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
         document.getElementById('loader').style.display = 'none';
-    }, 4000); // 25 seconds
+    }, 3000); // 25 seconds
 });
 
